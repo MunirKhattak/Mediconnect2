@@ -1,0 +1,86 @@
+import { Specialization, Doctor } from './types';
+
+export const SPECIALIZATIONS: Specialization[] = [
+  {
+    id: '1',
+    name: 'Cardiologist',
+    icon: 'Heart',
+    count: 12,
+    color: 'bg-rose-50',
+    iconColor: 'text-rose-500',
+  },
+  {
+    id: '2',
+    name: 'Dermatologist',
+    icon: 'Stethoscope',
+    count: 8,
+    color: 'bg-teal-50',
+    iconColor: 'text-teal-500',
+  },
+  {
+    id: '3',
+    name: 'Orthopaedic',
+    icon: 'Activity',
+    count: 15,
+    color: 'bg-indigo-50',
+    iconColor: 'text-indigo-500',
+  },
+  {
+    id: '4',
+    name: 'Pediatrician',
+    icon: 'Smile',
+    count: 22,
+    color: 'bg-orange-50',
+    iconColor: 'text-orange-500',
+  },
+  {
+    id: '5',
+    name: 'Radiologists',
+    icon: 'Clipboard',
+    count: 6,
+    color: 'bg-emerald-50',
+    iconColor: 'text-emerald-500',
+  },
+  {
+    id: '6',
+    name: 'Neurologist',
+    description: 'Expert brain & nerve care',
+    icon: 'Brain',
+    count: 4,
+    color: 'bg-slate-100',
+    iconColor: 'text-slate-600',
+  },
+];
+
+export const DOCTORS: Doctor[] = [
+  {
+    id: 'd1',
+    name: 'Dr. Sarah Johnson',
+    specialization: 'Dental Specialist',
+    clinic: 'General Clinic',
+    rating: 4.8,
+    reviews: 120,
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200&h=200',
+    about: 'Dr. Sarah Johnson is a highly experienced dental specialist with over 10 years of practice. She specializes in cosmetic dentistry and oral surgery.',
+  },
+  {
+    id: 'd2',
+    name: 'Dr. Marcus Chen',
+    specialization: 'Cardiologist',
+    clinic: 'Heart & Vascular Center',
+    rating: 4.9,
+    reviews: 250,
+    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200&h=200',
+    about: 'Dr. Marcus Chen is a board-certified cardiologist specializing in interventional cardiology and heart failure management.',
+  },
+  {
+    id: 'd3',
+    name: 'Dr. Elena Rodriguez',
+    specialization: 'Pediatrician',
+    clinic: 'Kids Care Hospital',
+    rating: 4.7,
+    reviews: 180,
+    image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=200&h=200',
+    about: 'Dr. Elena Rodriguez loves working with children and has a gentle approach to pediatric care.',
+  },
+];
